@@ -1,0 +1,12 @@
+---
+- name: sleep 30 seconds
+  wait_for:
+    timeout: 30
+
+- name: something else
+  debug:
+    msg: something else
+
+- name: include test-role-2
+  include_role:
+    name: test-role-2
