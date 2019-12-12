@@ -3,9 +3,9 @@
   wait_for:
     timeout: 30
 
-- name: something else
+- name: something else slightly different
   debug:
-    msg: something else
+    msg: something else slightly different
 
 - name: include test-role-2
   include_role:

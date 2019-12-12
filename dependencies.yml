@@ -3,6 +3,6 @@
   type: ansible_role
   src:
     repo: https://github.com/theque5t/ansible-role-test-role-2.git
-    version: v1.0.0
+    version: v1.0.1
   src_type: git_repo
-  version: 1.0.0
+  version: 1.0.1
